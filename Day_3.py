@@ -1,6 +1,6 @@
 sum=0
 try:
-    with open(r"C:\Users\bonssa.teizazu\OneDrive - General Dynamics Mission Systems\Desktop\Day3.txt", "r") as file:
+    with open(r"PATH TO FILE", "r") as file:
         for line in file:
             # line includes the newline character (\n) at the end
             # Use .strip() to remove leading/trailing whitespace, including newline
